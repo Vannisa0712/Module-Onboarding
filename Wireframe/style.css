@@ -83,7 +83,8 @@ article {
   > * {
     grid-column: 2/3;
   }
-  > img {
+   img {
     grid-column: span 3;
   }
 }
+
