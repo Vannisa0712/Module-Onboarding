@@ -13,15 +13,40 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+        <div>
+        <label for="name">NAME:</label>
+        <input type="text" id="name" name="name" required>
+        </div>
+<br>
+     <div>
+        <label for="email">EMAIL:</label>
+        <input type="text" id="email" name="email" required>
+     </div>
+  
+        <div>
+          <br>
+          <label for="color">What color do you prefer?</label>
+  <select id="bring" name="bring">
+  <option>White</option> <option>Burgundy</option>
+  <option>Black</option>
+</select>
+</div>
+<br>
+    <fieldset> 
+<legend>Choose your size</legend>
+<label>
+  <input type="radio" name="size" value="xs">XS</label>
+<label>
+  <input type="radio" name="size" value="s">S</label>
+<label>
+  <input type="radio" name="size" value="m"> M</label>
+<label><input type="radio" name="size" value="l">L</label>
+<label><input type="radio" name="size" value="xl">XL</label>
+<label><input type="radio" name="size" value="xxl">XXL</label>
+</fieldset>
       </form>
-    </main>
-    <footer>
-      <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
-    </footer>
+<br>
+      <button type="submit">Submit</buttton>
+      </main>
   </body>
 </html>
